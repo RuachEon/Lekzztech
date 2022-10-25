@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    z-index: 99;
+    position: relative;
+    transition: 0.4s;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+nav .container {
+    max-width: 1150px;
+    padding: 1em 2em;
+    margin: 0 auto;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+nav ul a {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+nav .container .menu-btn {
+    display: none;
+}
+
+.social-media a {
+    font-size: 1em;
+}
+
+header {
+        height: 100vh;
+        background-image: url(Tech.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+header h1 {
+    position: absolute;
+    font-size: clamp(3.5rem, 15vw + 1rem, 12rem);
+    letter-spacing: 5px;
+    font-weight: 700;
+    transform: translateY(-50%);
+}
+
+.glass {
+    position: absolute;
+    width: 42%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
